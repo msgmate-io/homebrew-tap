@@ -5,17 +5,17 @@
 class OpenChat < Formula
   desc "Open source, privacy focused Chat-GPT alternative with tools and integrations"
   homepage "https://github.com/msgmate-io/open-chat-go"
-  version "0.0.773"
+  version "0.0.810"
 
   on_macos do
     on_arm do
-      url "https://github.com/msgmate-io/open-chat-go/releases/download/open-chat-0.0.773/open-chat-0.0.773-darwin-arm64"
-      sha256 "34e664d2e974af811024544ce1b2c5585df6cee4b8806d8240ae881ef12b4427"
+      url "https://github.com/msgmate-io/open-chat-go/releases/download/open-chat-0.0.810/open-chat-0.0.810-darwin-arm64"
+      sha256 "f0093773a15e93759f05e9a4465e7b85ef734abc2dfda9c3f51f47f986899fae"
     end
 
     on_intel do
-      url "https://github.com/msgmate-io/open-chat-go/releases/download/open-chat-0.0.773/open-chat-0.0.773-darwin-amd64"
-      sha256 "6acffa77dac0199ad3ffa60170389daf77b41f76065b008650728ab2a9785415"
+      url "https://github.com/msgmate-io/open-chat-go/releases/download/open-chat-0.0.810/open-chat-0.0.810-darwin-amd64"
+      sha256 "89ca7097506dc37dbc79fa5efe1bf1a00ab1158cef67d68062c88db0570a8acb"
     end
   end
 
