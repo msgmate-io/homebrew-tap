@@ -10,12 +10,12 @@ class OpenChat < Formula
   on_macos do
     on_arm do
       url "https://github.com/msgmate-io/open-chat-go/releases/download/open-chat-0.0.812/open-chat-0.0.812-darwin-arm64"
-      sha256 "ed272741a2fdcbfd3eca21e32df0a19fd85cea1113aca9190b115e24d8a78311"
+      sha256 "f3688ec562f34a200dea31cad46253453c97eb7e51ffaad1acd1bf132c1fa57d"
     end
 
     on_intel do
       url "https://github.com/msgmate-io/open-chat-go/releases/download/open-chat-0.0.812/open-chat-0.0.812-darwin-amd64"
-      sha256 "72044ae01443a766efdcd98bf5e0ed97c3c2f774070cc3d9a3719445e44a67dc"
+      sha256 "e43b5eb0aaaddf04288d9752e68270237b2d3a8ad37f460091626b6480a3b841"
     end
   end
 
